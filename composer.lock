@@ -2502,7 +2502,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/calendar.git",
-                "reference": "1ef5b86b11bf69641cc6539bcc93f73e7afb8ebf"
+                "reference": "1824fdcd1079b9c4bbdcb3023256e75a0d1ec721"
             },
             "require": {
                 "drupal/calendar_datetime": "*",
@@ -2516,17 +2516,13 @@
                 },
                 "drupal": {
                     "version": "8.x-1.x-dev",
-                    "datestamp": "1530790720",
+                    "datestamp": "1584432437",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
                     }
                 },
-                "patches_applied": {
-                    "Year display header always shows current year after using pager": "https://www.drupal.org/files/issues/year_display_header_always_shows_current_year-2915266-02.patch",
-                    "ISO-8601 Week and Year": "https://www.drupal.org/files/issues/2018-06-11/iso_8601_week_and_year-2917145-4.patch",
-                    "Timezones": "https://www.drupal.org/files/issues/2018-03-20/2604546-26.patch"
-                }
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
@@ -2546,8 +2542,8 @@
                     "homepage": "https://www.drupal.org/user/536694"
                 },
                 {
-                    "name": "pjonckiere",
-                    "homepage": "https://www.drupal.org/user/2442998"
+                    "name": "solide-echt",
+                    "homepage": "https://www.drupal.org/user/46176"
                 },
                 {
                     "name": "tedbow",
@@ -2563,7 +2559,7 @@
                 "source": "http://cgit.drupalcode.org/calendar",
                 "issues": "https://www.drupal.org/project/issues/calendar"
             },
-            "time": "2018-07-05T11:35:40+00:00"
+            "time": "2020-03-17T09:24:57+00:00"
         },
         {
             "name": "drupal/calendar_datetime",
@@ -12669,16 +12665,16 @@
         },
         {
             "name": "behat/gherkin",
-            "version": "v4.6.1",
+            "version": "v4.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/Gherkin.git",
-                "reference": "25bdcaf37898b4a939fa3031d5d753ced97e4759"
+                "reference": "51ac4500c4dc30cbaaabcd2f25694299df666a31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/25bdcaf37898b4a939fa3031d5d753ced97e4759",
-                "reference": "25bdcaf37898b4a939fa3031d5d753ced97e4759",
+                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/51ac4500c4dc30cbaaabcd2f25694299df666a31",
+                "reference": "51ac4500c4dc30cbaaabcd2f25694299df666a31",
                 "shasum": ""
             },
             "require": {
@@ -12724,7 +12720,7 @@
                 "gherkin",
                 "parser"
             ],
-            "time": "2020-02-27T11:29:57+00:00"
+            "time": "2020-03-17T14:03:26+00:00"
         },
         {
             "name": "behat/mink",
